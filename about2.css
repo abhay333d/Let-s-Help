@@ -1,0 +1,305 @@
+.body {
+    margin: 0em;
+}
+
+.page1 .page2 .page3 .page4 .page5 .page6 .page7 .page8 .page9 .page10{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+body{
+    height: 100vh;
+    display: flex; 
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    float: left;
+    margin: 70px;
+}
+ .image img{
+    height: 300px;
+    border-radius: 50%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #fff;
+    font-size:50px;
+  }
+
+  .textboxrigth{
+    float: right;
+    width: 40%;
+    height: 280px;
+    padding: 30px;
+    border: 5px solid #fff;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+ }
+
+ .textboxrigth   h1{
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.textboxrigth p{
+   font-size: 18px;
+   font-weight:lighter;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #b111b1;
+    color: white;
+  }
+ 
+ 
+ .smallboxes{
+   align-items:center;
+   align-items:  flex-start;
+   justify-content: space-between;
+   width: auto;
+    height: auto;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+ }
+
+ .centered-foot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: hsl(123, 20%, 18%);;
+    font-size:50px;
+ }
+
+ /* unvisited link */
+.smallboxes p {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  .smallboxes p:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  .smallboxes p:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  .smallboxes p:active {
+    color: yellow;
+  } 
+
+  .smallboxes a {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  .smallboxes a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  .smallboxes a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  .smallboxes a:active {
+    color: yellow;
+  } 
+
+ .icon1 {
+    
+    box-sizing: border-box;
+      position: relative;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 5px solid hsl(123, 20%, 18%);;
+      border-radius: 100%;
+  }
+  
+  .icon1::after {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin: 1px 0 0 -6px;
+      display: block;
+      content: '';
+      border: 6px solid transparent;
+      border-top: 10px solid hsl(123, 20%, 18%);;
+      border-bottom: none;
+  }
+
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+    background:hsl(123, 20%, 18%);;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:black;
+    font-size:0.8em;
+    }
+ 
+    .footer .row p{
+       align-items:left;
+       width:100%;
+       margin:10px;
+       padding:0.6% 0%;
+       color:black;
+       font-size:15px;
+       }
+ 
+    
+    .footer .row a{
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+
+    .icon-color{
+        color: black;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Style inputs */
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      /* Style the container/contact section */
+      .container-box {
+        border-radius: 5px;
+        background-color: hsl(123, 20%, 18%);;
+        padding: 10px;
+      }
+      
+      /* Create two columns that float next to eachother */
+      .columnx {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .rowx:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .columnx, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+ 
